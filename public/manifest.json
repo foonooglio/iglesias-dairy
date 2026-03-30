@@ -1,0 +1,9 @@
+{
+  "name": "Iglesias Dairy",
+  "short_name": "IglesiasDairy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"}]
+}
