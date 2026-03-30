@@ -258,8 +258,8 @@ export default function CowsPage() {
                 {filtered.map((cow, i) => (
                   <tr key={cow.id} className={i % 2 === 0 ? 'bg-white' : 'bg-green-50'}>
                     <td className="px-3 py-2">
-                      <Link href={`/cows/${cow.id}`} className="text-green-700 font-semibold hover:underline">
-                        {cow.id}
+                      <Link href={`/cows/${cow.id}`} className="inline-block bg-green-100 text-green-800 font-bold px-2 py-0.5 rounded border border-green-300 hover:bg-green-200 transition text-xs">
+                        #{cow.id} →
                       </Link>
                     </td>
                     <td className="px-3 py-2 text-gray-600">{cow.breedType}</td>

@@ -175,10 +175,10 @@ export default function InspectionPage() {
                           key={cow.id}
                           type="button"
                           onClick={() => toggleCow(group.status, cow.id)}
-                          className={`px-2 py-1 rounded-md text-xs font-medium border transition-colors ${
+                          className={`px-3 py-1.5 rounded-lg text-sm font-bold border-2 transition-colors shadow-sm ${
                             selected
-                              ? 'bg-green-600 text-white border-green-600'
-                              : 'bg-white text-gray-700 border-gray-300 hover:border-green-400'
+                              ? 'bg-green-600 text-white border-green-600 shadow-md'
+                              : 'bg-white text-gray-800 border-gray-400 hover:border-green-500 hover:bg-green-50'
                           }`}
                         >
                           {cow.id}
@@ -204,9 +204,12 @@ export default function InspectionPage() {
           {farmId && (
             <button
               type="submit"
-              className="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-3 rounded-xl transition shadow"
+              disabled={saved}
+              className={`w-full font-bold py-3 rounded-xl transition shadow text-white ${
+                saved ? 'bg-green-500 cursor-default' : 'bg-green-700 hover:bg-green-800'
+              }`}
             >
-              {T.submit}
+              {saved ? '✓ Submission Successful' : T.submit}
             </button>
           )}
         </form>

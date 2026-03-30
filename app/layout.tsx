@@ -30,7 +30,10 @@ export default function RootLayout({
           <header className="bg-green-700 text-white px-4 py-3 flex items-center justify-between shadow-md">
             <div className="flex items-center gap-2">
               <span className="text-2xl">🐄</span>
-              <span className="font-bold text-lg tracking-tight">Iglesias Dairy</span>
+              <div>
+                <span className="font-bold text-lg tracking-tight">Iglesias Dairy</span>
+                <span className="ml-2 text-xs bg-white text-green-700 font-bold px-2 py-0.5 rounded-full">DEMO #4</span>
+              </div>
             </div>
             <LanguageToggle />
           </header>
