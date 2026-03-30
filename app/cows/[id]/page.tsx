@@ -54,6 +54,31 @@ export default function CowDetailPage() {
     .filter(m => m.cowId === cowId)
     .sort((a, b) => b.date.localeCompare(a.date));
 
+  // Pregnancy / dry-off calculation
+  const pregnancyAlert = (() => {
+    for (const insp of cowInspections) {
+      const entry = insp.entries.find(e => e.cowIds.includes(cowId) && e.mesesPrene !== undefined);
+      if (entry && entry.mesesPrene !== undefined) {
+        const inspDate = new Date(insp.date);
+        const monthsRemaining = 9 - entry.mesesPrene;
+        const expectedBirth = new Date(inspDate);
+        expectedBirth.setMonth(expectedBirth.getMonth() + monthsRemaining);
+        const dryOffDate = new Date(expectedBirth);
+        dryOffDate.setDate(dryOffDate.getDate() - 60);
+        const today = new Date();
+        const daysUntilDryOff = Math.round((dryOffDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+        return {
+          mesesPrene: entry.mesesPrene,
+          inspDate: insp.date,
+          expectedBirth: expectedBirth.toISOString().slice(0, 10),
+          dryOffDate: dryOffDate.toISOString().slice(0, 10),
+          daysUntilDryOff,
+        };
+      }
+    }
+    return null;
+  })();
+
   function saveBirthDate() {
     if (!cow) return;
     updateCow(cow.id, { birthDate: birthDate || undefined });
@@ -101,6 +126,23 @@ export default function CowDetailPage() {
           </button>
         </div>
       </div>
+
+      {/* Pregnancy Alert */}
+      {pregnancyAlert && (
+        <div className={`rounded-xl shadow p-4 border-2 ${pregnancyAlert.daysUntilDryOff <= 14 ? 'bg-red-50 border-red-400' : pregnancyAlert.daysUntilDryOff <= 30 ? 'bg-yellow-50 border-yellow-400' : 'bg-blue-50 border-blue-300'}`}>
+          <h2 className="font-semibold text-gray-800 mb-2">🐄 {lang === 'es' ? 'Preñez' : 'Pregnancy'}</h2>
+          <div className="text-sm space-y-1">
+            <p><span className="text-gray-500">{lang === 'es' ? 'Meses preñada (última inspección)' : 'Months pregnant (last inspection)'}:</span> <strong>{pregnancyAlert.mesesPrene} / 9</strong></p>
+            <p><span className="text-gray-500">{lang === 'es' ? 'Parto estimado' : 'Expected birth'}:</span> <strong>{pregnancyAlert.expectedBirth}</strong></p>
+            <p><span className="text-gray-500">{lang === 'es' ? 'Fecha de secado' : 'Dry-off date'}:</span> <strong>{pregnancyAlert.dryOffDate}</strong></p>
+            <p className={`font-bold mt-1 ${pregnancyAlert.daysUntilDryOff <= 0 ? 'text-red-700' : pregnancyAlert.daysUntilDryOff <= 14 ? 'text-red-600' : pregnancyAlert.daysUntilDryOff <= 30 ? 'text-yellow-700' : 'text-blue-700'}`}>
+              {pregnancyAlert.daysUntilDryOff <= 0
+                ? (lang === 'es' ? '⚠️ Esta vaca debe estar seca ahora' : '⚠️ This cow should be dry now')
+                : `${lang === 'es' ? '📅 Días para secar' : '📅 Days until dry-off'}: ${pregnancyAlert.daysUntilDryOff}`}
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Inspection History */}
       <div className="bg-white rounded-xl shadow p-4">
