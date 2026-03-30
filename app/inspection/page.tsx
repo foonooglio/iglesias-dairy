@@ -143,7 +143,7 @@ export default function InspectionPage() {
                   </div>
 
                   {/* Special meses field for PRENE status */}
-                  {group.status === 'PRENE' && (
+                  {group.status.includes('PRENE') && (
                     <div className="mb-2">
                       <label className="block text-xs text-gray-500 mb-1">{T.mesesPrene}</label>
                       <input

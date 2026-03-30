@@ -32,7 +32,7 @@ export default function RootLayout({
               <span className="text-2xl">🐄</span>
               <div>
                 <span className="font-bold text-lg tracking-tight">Iglesias Dairy</span>
-                <span className="ml-2 text-xs bg-white text-green-700 font-bold px-2 py-0.5 rounded-full">DEMO #4</span>
+                <span className="ml-2 text-xs bg-white text-green-700 font-bold px-2 py-0.5 rounded-full">DEMO #6</span>
               </div>
             </div>
             <LanguageToggle />
