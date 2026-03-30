@@ -1,0 +1,2814 @@
+{
+  "iglesias_farms": [
+    {
+      "id": "farm1",
+      "name": "Finca Norte",
+      "location": "Arecibo"
+    },
+    {
+      "id": "farm2",
+      "name": "Finca Sur",
+      "location": "Ponce"
+    },
+    {
+      "id": "farm3",
+      "name": "Finca Este",
+      "location": "Humacao"
+    }
+  ],
+  "iglesias_cows": [
+    {
+      "id": "1",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2015-04-14",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2011-03-09",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2018-05-26",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2010-01-12",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2013-08-17",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2010-03-01",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2011-09-09",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2015-07-17",
+      "currentStatus": "VACIO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2014-06-03",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2015-01-02",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2011-07-05",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2014-09-23",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "13",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2012-02-19",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "14",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2017-05-01",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "15",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2013-09-21",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "16",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2015-03-06",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "17",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2012-06-08",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "18",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2015-09-01",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "19",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2016-02-08",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "20",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2018-09-16",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "21",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2010-08-05",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "22",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2013-03-10",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "23",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2010-09-24",
+      "currentStatus": "VACIO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "24",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2017-09-03",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "25",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2014-07-26",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "26",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2011-09-13",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "27",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2013-04-26",
+      "currentStatus": "VACIO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "28",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2014-09-05",
+      "currentStatus": "VACIO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "29",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2015-01-12",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "30",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2015-06-26",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "31",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2018-05-19",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "32",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2012-03-04",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "33",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2010-06-23",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "34",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2011-04-08",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "35",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2011-05-18",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "36",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2010-01-21",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "37",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2016-06-20",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "38",
+      "breedType": "Holstein",
+      "farmId": "farm1",
+      "birthDate": "2010-02-24",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "39",
+      "breedType": "Jersey",
+      "farmId": "farm1",
+      "birthDate": "2018-01-04",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "40",
+      "breedType": "Brown Swiss",
+      "farmId": "farm1",
+      "birthDate": "2013-08-15",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "41",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2010-09-02",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "42",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2015-06-24",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "43",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2015-08-20",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "44",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2014-07-22",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "45",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2017-05-14",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "46",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2010-02-07",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "47",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2010-01-27",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "48",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2017-04-01",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "49",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2014-02-16",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "50",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2018-01-01",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "51",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2013-04-24",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "52",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2010-07-01",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "53",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2016-01-11",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "54",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2010-06-14",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "55",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2013-05-20",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "56",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2015-09-09",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "57",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2014-02-28",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "58",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2010-08-09",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "59",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2012-01-16",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "60",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2018-09-25",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "61",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2013-08-14",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "62",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2015-04-16",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "63",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2013-06-02",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "64",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2013-01-25",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "65",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2016-06-09",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "66",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2014-09-11",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "67",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2012-06-14",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "68",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2015-01-08",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "69",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2015-06-13",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "70",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2018-02-16",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "71",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2012-02-14",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "72",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2015-06-21",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "73",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2010-05-10",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "74",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2015-06-12",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "75",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2014-04-19",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "76",
+      "breedType": "Brown Swiss",
+      "farmId": "farm2",
+      "birthDate": "2014-02-26",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "77",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2018-02-20",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "78",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2014-01-20",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "79",
+      "breedType": "Jersey",
+      "farmId": "farm2",
+      "birthDate": "2014-09-06",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "80",
+      "breedType": "Holstein",
+      "farmId": "farm2",
+      "birthDate": "2018-06-03",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "81",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2016-05-02",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "82",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2015-02-04",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "83",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2012-02-17",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "84",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2018-05-19",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "85",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2014-01-08",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "86",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2013-04-20",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "87",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2013-08-23",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "88",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2018-05-03",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "89",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2018-06-02",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "90",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2016-08-16",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "91",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2014-08-27",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "92",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2012-09-01",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "93",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2017-05-04",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "94",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2013-04-09",
+      "currentStatus": "NUEVA VACA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "95",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2018-09-24",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "96",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2013-08-17",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "97",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2016-01-04",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "98",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2018-06-23",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "99",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2010-07-05",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "100",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2010-04-21",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "101",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2015-04-02",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "102",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2016-02-01",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "103",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2014-08-21",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "104",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2012-01-24",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "105",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2011-06-11",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "106",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2017-03-28",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "107",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2014-04-17",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "108",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2016-07-13",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "109",
+      "breedType": "Brown Swiss",
+      "farmId": "farm3",
+      "birthDate": "2012-04-05",
+      "currentStatus": "PARIDA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "110",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2010-09-07",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "111",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2018-04-15",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "112",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2014-05-17",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "113",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2015-08-24",
+      "currentStatus": "HORRAR",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "114",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2015-05-13",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "115",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2018-09-15",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "116",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2010-04-12",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "117",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2012-03-05",
+      "currentStatus": "ENFERMA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "118",
+      "breedType": "Jersey",
+      "farmId": "farm3",
+      "birthDate": "2016-03-23",
+      "currentStatus": "MUERTE",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "119",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2010-04-28",
+      "currentStatus": "CELO",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "120",
+      "breedType": "Holstein",
+      "farmId": "farm3",
+      "birthDate": "2016-02-08",
+      "currentStatus": "ABORTA",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    }
+  ],
+  "iglesias_inspections": [
+    {
+      "id": "insp_farm1_20240115",
+      "date": "2024-01-15",
+      "farmId": "farm1",
+      "entries": [
+        {
+          "cowIds": [
+            "1"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "29",
+            "21",
+            "2"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "24",
+            "15"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "34",
+            "39",
+            "8"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "25",
+            "22",
+            "37",
+            "3"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "12"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "36",
+            "35"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "6",
+            "18",
+            "14",
+            "11",
+            "17"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "33",
+            "7",
+            "9"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "27"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "16",
+            "19",
+            "20",
+            "5",
+            "40"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "4",
+            "26",
+            "13",
+            "23"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "10"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "38",
+            "28",
+            "30"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "32",
+            "31"
+          ],
+          "status": "ABORTA"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm1_20240215",
+      "date": "2024-02-15",
+      "farmId": "farm1",
+      "entries": [
+        {
+          "cowIds": [
+            "33",
+            "6"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "23"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "5",
+            "4",
+            "3"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "16",
+            "17",
+            "9"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "20",
+            "29",
+            "19"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "22",
+            "13",
+            "25",
+            "38",
+            "21"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "34",
+            "2",
+            "1",
+            "30",
+            "18"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "10",
+            "24",
+            "40",
+            "31",
+            "39"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "7",
+            "27",
+            "36"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "11",
+            "8",
+            "14"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "37",
+            "26",
+            "15"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "32",
+            "35",
+            "28"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "12"
+          ],
+          "status": "VACIO"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm1_20240315",
+      "date": "2024-03-15",
+      "farmId": "farm1",
+      "entries": [
+        {
+          "cowIds": [
+            "17",
+            "25",
+            "36",
+            "23"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "29"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "20"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "1",
+            "19",
+            "12",
+            "5"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "18",
+            "27",
+            "24"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "8",
+            "15",
+            "6"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "28"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "35",
+            "7",
+            "39",
+            "26",
+            "37"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "2",
+            "31",
+            "13",
+            "3"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "4",
+            "21"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "16",
+            "40",
+            "30"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "32",
+            "33",
+            "9",
+            "22",
+            "34"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "11",
+            "38",
+            "10"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "14"
+          ],
+          "status": "MUERTE"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm1_20240415",
+      "date": "2024-04-15",
+      "farmId": "farm1",
+      "entries": [
+        {
+          "cowIds": [
+            "13"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "17",
+            "25"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "35",
+            "11"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "9",
+            "34",
+            "33",
+            "19"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "22",
+            "8"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "3",
+            "6"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "27",
+            "16",
+            "14",
+            "10"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "7",
+            "2",
+            "23"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "26"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "36",
+            "1",
+            "37",
+            "40",
+            "28"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "30"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "21",
+            "4",
+            "18"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "5",
+            "15",
+            "38"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "31",
+            "24"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "29",
+            "32"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "12",
+            "20",
+            "39"
+          ],
+          "status": "HORRAR"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm1_20240515",
+      "date": "2024-05-15",
+      "farmId": "farm1",
+      "entries": [
+        {
+          "cowIds": [
+            "3",
+            "30",
+            "40",
+            "7"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "35",
+            "12"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "36"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "29",
+            "10",
+            "16",
+            "2"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "38",
+            "37"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "32",
+            "18",
+            "25"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "33",
+            "9",
+            "20",
+            "4",
+            "1"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "13",
+            "26",
+            "31",
+            "5",
+            "15"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "34",
+            "21",
+            "19"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "22",
+            "11"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "6"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "17",
+            "14"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "23",
+            "27",
+            "8",
+            "28"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "24",
+            "39"
+          ],
+          "status": "ENFERMA"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm2_20240115",
+      "date": "2024-01-15",
+      "farmId": "farm2",
+      "entries": [
+        {
+          "cowIds": [
+            "47"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "53"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "80",
+            "50",
+            "63"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "65",
+            "66",
+            "76",
+            "58",
+            "55"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "57",
+            "70"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "51",
+            "45",
+            "67"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "43"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "75",
+            "62"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "59",
+            "74"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "79",
+            "46",
+            "68",
+            "52"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "44"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "60",
+            "56",
+            "49",
+            "77"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "48",
+            "64",
+            "73"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "42",
+            "61"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "72"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "41",
+            "69",
+            "78"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "54",
+            "71"
+          ],
+          "status": "ENFERMA"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm2_20240215",
+      "date": "2024-02-15",
+      "farmId": "farm2",
+      "entries": [
+        {
+          "cowIds": [
+            "70",
+            "46"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "58",
+            "41",
+            "63"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "45",
+            "53",
+            "77",
+            "67",
+            "69"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "55",
+            "62"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "54",
+            "78",
+            "79"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "50",
+            "80",
+            "43",
+            "74"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "68"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "60",
+            "73",
+            "65",
+            "59"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "47",
+            "66",
+            "72"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "52",
+            "57",
+            "71",
+            "49"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "42"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "64",
+            "61",
+            "51",
+            "48"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "44",
+            "76",
+            "75",
+            "56"
+          ],
+          "status": "CELO"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm2_20240315",
+      "date": "2024-03-15",
+      "farmId": "farm2",
+      "entries": [
+        {
+          "cowIds": [
+            "54",
+            "46",
+            "74",
+            "63"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "78",
+            "57",
+            "41",
+            "70",
+            "68"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "60",
+            "73",
+            "52",
+            "47"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "69",
+            "55"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "65",
+            "62"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "79",
+            "76",
+            "59"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "42",
+            "50",
+            "58"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "43"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "66",
+            "49"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "45",
+            "44"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "56",
+            "77",
+            "61",
+            "48",
+            "80"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "75"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "51",
+            "64",
+            "72"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "53",
+            "71"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "67"
+          ],
+          "status": "ENFERMA"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm2_20240415",
+      "date": "2024-04-15",
+      "farmId": "farm2",
+      "entries": [
+        {
+          "cowIds": [
+            "77"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "65",
+            "42",
+            "71",
+            "49",
+            "55"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "46"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "48"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "62"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "64",
+            "70"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "68",
+            "74",
+            "54",
+            "59"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "41",
+            "78",
+            "80"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "47",
+            "66"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "69",
+            "58",
+            "56"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "72",
+            "50",
+            "52",
+            "44"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "73"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "61"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "51",
+            "75",
+            "53",
+            "76"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "63",
+            "67",
+            "79",
+            "57",
+            "60"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "45",
+            "43"
+          ],
+          "status": "NUEVA VACA"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm2_20240515",
+      "date": "2024-05-15",
+      "farmId": "farm2",
+      "entries": [
+        {
+          "cowIds": [
+            "57",
+            "46",
+            "43",
+            "79",
+            "76"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "68"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "59",
+            "50",
+            "49",
+            "47",
+            "42"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "66"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "64"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "80",
+            "52"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "62",
+            "65",
+            "56",
+            "41",
+            "73"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "51",
+            "45"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "77",
+            "48",
+            "55",
+            "69"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "74",
+            "72",
+            "67",
+            "44",
+            "70"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "71",
+            "61",
+            "75"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "53"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "58"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "60",
+            "63",
+            "78"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "54"
+          ],
+          "status": "PARIDA"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm3_20240115",
+      "date": "2024-01-15",
+      "farmId": "farm3",
+      "entries": [
+        {
+          "cowIds": [
+            "103",
+            "96",
+            "86"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "118",
+            "99",
+            "85",
+            "110"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "84"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "108",
+            "109",
+            "113"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "91",
+            "114",
+            "117"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "88"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "104",
+            "116",
+            "94"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "98",
+            "119"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "89",
+            "90",
+            "83"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "82",
+            "101",
+            "120",
+            "112"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "95",
+            "107",
+            "100"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "102",
+            "92"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "106",
+            "87",
+            "111",
+            "81",
+            "97"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "93"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "115"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "105"
+          ],
+          "status": "VACIO"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm3_20240215",
+      "date": "2024-02-15",
+      "farmId": "farm3",
+      "entries": [
+        {
+          "cowIds": [
+            "84",
+            "83",
+            "104"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "107",
+            "96",
+            "97",
+            "91",
+            "115"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "98"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "88",
+            "99",
+            "110",
+            "95",
+            "117"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "82",
+            "102",
+            "112",
+            "119"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "90",
+            "118",
+            "94",
+            "113"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "89",
+            "101"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "114",
+            "100",
+            "116",
+            "109",
+            "120"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "86",
+            "81",
+            "108",
+            "106"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "111",
+            "87"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "103",
+            "93",
+            "105",
+            "92"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "85"
+          ],
+          "status": "MUERTE"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm3_20240315",
+      "date": "2024-03-15",
+      "farmId": "farm3",
+      "entries": [
+        {
+          "cowIds": [
+            "87",
+            "102"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "112",
+            "110",
+            "97"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "104",
+            "99",
+            "118"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "98",
+            "115",
+            "103",
+            "109"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "101",
+            "107",
+            "85",
+            "86"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "91",
+            "119"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "114"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "117"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "116"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "96",
+            "89",
+            "88",
+            "94",
+            "81"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "82",
+            "90",
+            "105"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "113",
+            "93",
+            "83"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "108",
+            "95",
+            "120",
+            "84",
+            "100"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "92",
+            "111"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "106"
+          ],
+          "status": "ABORTA"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm3_20240415",
+      "date": "2024-04-15",
+      "farmId": "farm3",
+      "entries": [
+        {
+          "cowIds": [
+            "110",
+            "87"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "112",
+            "120",
+            "119",
+            "86"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "96",
+            "97",
+            "105",
+            "85",
+            "100"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "114",
+            "115"
+          ],
+          "status": "VACIO"
+        },
+        {
+          "cowIds": [
+            "108",
+            "90",
+            "116"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "111",
+            "101",
+            "94",
+            "117"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "93",
+            "118"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "113",
+            "84",
+            "95"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "88"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "106",
+            "83",
+            "103"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "109",
+            "99",
+            "102",
+            "98"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "89",
+            "92",
+            "104",
+            "107",
+            "82"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "91"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "81"
+          ],
+          "status": "CELO"
+        }
+      ]
+    },
+    {
+      "id": "insp_farm3_20240515",
+      "date": "2024-05-15",
+      "farmId": "farm3",
+      "entries": [
+        {
+          "cowIds": [
+            "81",
+            "104",
+            "107",
+            "116"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "118",
+            "96",
+            "103"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "115",
+            "111",
+            "83"
+          ],
+          "status": "MUERTE"
+        },
+        {
+          "cowIds": [
+            "108",
+            "82"
+          ],
+          "status": "PARIDA"
+        },
+        {
+          "cowIds": [
+            "84"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "119"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "90",
+            "91",
+            "94"
+          ],
+          "status": "NUEVA VACA"
+        },
+        {
+          "cowIds": [
+            "88",
+            "114",
+            "85",
+            "89",
+            "100"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "97"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "113"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "87",
+            "99",
+            "86",
+            "98"
+          ],
+          "status": "HORRAR"
+        },
+        {
+          "cowIds": [
+            "106",
+            "93",
+            "120",
+            "110",
+            "101"
+          ],
+          "status": "ABORTA"
+        },
+        {
+          "cowIds": [
+            "95"
+          ],
+          "status": "CELO"
+        },
+        {
+          "cowIds": [
+            "117",
+            "112",
+            "102",
+            "105"
+          ],
+          "status": "ENFERMA"
+        },
+        {
+          "cowIds": [
+            "92",
+            "109"
+          ],
+          "status": "PARIDA"
+        }
+      ]
+    }
+  ],
+  "iglesias_movements": [],
+  "iglesias_breeds": [
+    "Holstein",
+    "Jersey",
+    "Brown Swiss"
+  ],
+  "iglesias_statuses": [
+    "CELO",
+    "VACIO",
+    "HORRAR",
+    "PARIDA",
+    "ENFERMA",
+    "ABORTA",
+    "MUERTE",
+    "NUEVA VACA"
+  ],
+  "iglesias_dashboard_config": {
+    "showTotalCows": true,
+    "showTotalFarms": true,
+    "statusCounts": [
+      "CELO",
+      "HORRAR",
+      "PARIDA",
+      "ENFERMA"
+    ]
+  }
+}

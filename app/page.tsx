@@ -7,6 +7,7 @@ import {
   Cow, Farm, DashboardConfig,
 } from '@/lib/store';
 import { t } from '@/lib/translations';
+import SeedLoader from '@/components/SeedLoader';
 
 export default function Dashboard() {
   const [lang, setLang] = useState<'es' | 'en'>('es');
@@ -52,6 +53,7 @@ export default function Dashboard() {
 
   return (
     <div className="space-y-4">
+      <SeedLoader />
       {/* Summary Cards */}
       <div className="grid grid-cols-2 gap-3">
         {config.showTotalCows && (
