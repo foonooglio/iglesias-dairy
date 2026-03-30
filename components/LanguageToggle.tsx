@@ -21,7 +21,7 @@ export default function LanguageToggle() {
   return (
     <button
       onClick={toggle}
-      className="text-xs font-semibold px-3 py-1 rounded-full border border-green-600 text-green-700 hover:bg-green-50 transition"
+      className="text-xs font-semibold px-3 py-1 rounded-full border-2 border-white bg-white text-green-700 hover:bg-green-50 transition shadow-sm"
     >
       {lang === 'es' ? t.es.english : t.en.spanish}
     </button>
