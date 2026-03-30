@@ -24,9 +24,9 @@ export default function CowsPage() {
   // Transfer form
   const [showTransfer, setShowTransfer] = useState(false);
   const [transferIds, setTransferIds] = useState('');
-  const [fromFarmId, setFromFarmId] = useState('');
   const [toFarmId, setToFarmId] = useState('');
   const [transferDate, setTransferDate] = useState(() => new Date().toISOString().slice(0, 10));
+  const [transferError, setTransferError] = useState('');
 
   function loadAll() {
     setCows(getCows());
@@ -91,12 +91,21 @@ export default function CowsPage() {
 
   function handleTransfer(e: React.FormEvent) {
     e.preventDefault();
+    setTransferError('');
     const ids = parseIds(transferIds);
-    if (!ids.length || !fromFarmId || !toFarmId || fromFarmId === toFarmId) return;
+    if (!ids.length || !toFarmId) return;
+
+    const registeredIds = new Set(cows.map(c => c.id));
+    const unregistered = ids.filter(id => !registeredIds.has(id));
+    if (unregistered.length > 0) {
+      setTransferError(`Cow IDs not registered: ${unregistered.join(', ')}`);
+      return;
+    }
+
     for (const cowId of ids) {
-      const cow = cows.find(c => c.id === cowId && c.farmId === fromFarmId);
-      if (cow) {
-        addMovement({ cowId, fromFarmId, toFarmId, date: transferDate });
+      const cow = cows.find(c => c.id === cowId);
+      if (cow && cow.farmId !== toFarmId) {
+        addMovement({ cowId, fromFarmId: cow.farmId, toFarmId, date: transferDate });
       }
     }
     setTransferIds('');
@@ -182,6 +191,7 @@ export default function CowsPage() {
         </div>
         {showTransfer && (
           <form onSubmit={handleTransfer} className="mt-3 space-y-2">
+            <p className="text-xs text-gray-500">Enter registered cow IDs (e.g. 1,2,3 or 10-20). The system will automatically detect each cow&apos;s current farm.</p>
             <input
               type="text"
               placeholder={T.bulkIds}
@@ -191,15 +201,6 @@ export default function CowsPage() {
               className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
             />
             <select
-              value={fromFarmId}
-              onChange={e => setFromFarmId(e.target.value)}
-              required
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            >
-              <option value="">{T.fromFarm}</option>
-              {farms.map(f => <option key={f.id} value={f.id}>{f.location || f.name}</option>)}
-            </select>
-            <select
               value={toFarmId}
               onChange={e => setToFarmId(e.target.value)}
               required
@@ -208,13 +209,17 @@ export default function CowsPage() {
               <option value="">{T.toFarm}</option>
               {farms.map(f => <option key={f.id} value={f.id}>{f.location || f.name}</option>)}
             </select>
-            <input
-              type="date"
-              value={transferDate}
-              onChange={e => setTransferDate(e.target.value)}
-              required
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
+            <div>
+              <label className="text-xs text-gray-500 block mb-1">Transfer date (record of when move occurred)</label>
+              <input
+                type="date"
+                value={transferDate}
+                onChange={e => setTransferDate(e.target.value)}
+                required
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+            </div>
+            {transferError && <p className="text-red-600 text-xs">{transferError}</p>}
             <button
               type="submit"
               className="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-2 rounded-lg transition"
