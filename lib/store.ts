@@ -1,4 +1,5 @@
-// lib/store.ts - All data types and localStorage functions
+// lib/store.ts - All data types, localStorage functions, and Supabase helpers
+import { createClient } from './supabase';
 
 export type Farm = {
   id: string;
@@ -191,6 +192,193 @@ export function getLanguage(): 'es' | 'en' {
 }
 export function saveLanguage(lang: 'es' | 'en'): void {
   setJSON(LANGUAGE_KEY, lang);
+}
+
+// ============================================================
+// Supabase helpers (prefixed with sb)
+// ============================================================
+
+// Get current user's org_id from their profile
+export async function getOrgId(): Promise<string | null> {
+  const supabase = createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return null;
+
+  const { data, error } = await supabase
+    .from('profiles')
+    .select('org_id')
+    .eq('id', user.id)
+    .single();
+
+  if (error || !data) return null;
+  return data.org_id as string;
+}
+
+// --- Supabase Farms ---
+export async function sbGetFarms(): Promise<Farm[]> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from('farms')
+    .select('id, name, location')
+    .order('created_at');
+
+  if (error || !data) return [];
+  return data as Farm[];
+}
+
+export async function sbAddFarm(name: string, location: string): Promise<Farm | null> {
+  const supabase = createClient();
+  const orgId = await getOrgId();
+  if (!orgId) return null;
+
+  const { data, error } = await supabase
+    .from('farms')
+    .insert({ name, location, org_id: orgId })
+    .select('id, name, location')
+    .single();
+
+  if (error || !data) return null;
+  return data as Farm;
+}
+
+export async function sbRemoveFarm(id: string): Promise<void> {
+  const supabase = createClient();
+  await supabase.from('farms').delete().eq('id', id);
+}
+
+// --- Supabase Cows ---
+export async function sbGetCows(): Promise<Cow[]> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from('cows')
+    .select('id, farm_id, breed_type, birth_date, current_status, created_at')
+    .order('created_at');
+
+  if (error || !data) return [];
+  return data.map((row: Record<string, unknown>) => ({
+    id: row.id as string,
+    farmId: row.farm_id as string,
+    breedType: row.breed_type as string,
+    birthDate: row.birth_date as string | undefined,
+    currentStatus: row.current_status as string,
+    createdAt: row.created_at as string,
+  }));
+}
+
+export async function sbAddCow(cowData: Omit<Cow, 'createdAt'>): Promise<Cow | null> {
+  const supabase = createClient();
+  const orgId = await getOrgId();
+  if (!orgId) return null;
+
+  const { data, error } = await supabase
+    .from('cows')
+    .insert({
+      id: cowData.id,
+      org_id: orgId,
+      farm_id: cowData.farmId || null,
+      breed_type: cowData.breedType,
+      birth_date: cowData.birthDate || null,
+      current_status: cowData.currentStatus,
+    })
+    .select()
+    .single();
+
+  if (error || !data) return null;
+  return {
+    id: data.id,
+    farmId: data.farm_id,
+    breedType: data.breed_type,
+    birthDate: data.birth_date,
+    currentStatus: data.current_status,
+    createdAt: data.created_at,
+  };
+}
+
+// --- Supabase Inspections ---
+export async function sbGetInspections(): Promise<Inspection[]> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from('inspections')
+    .select('id, farm_id, date, entries')
+    .order('date', { ascending: false });
+
+  if (error || !data) return [];
+  return data.map((row: Record<string, unknown>) => ({
+    id: row.id as string,
+    farmId: row.farm_id as string,
+    date: row.date as string,
+    entries: (row.entries as InspectionEntry[]) || [],
+  }));
+}
+
+export async function sbAddInspection(inspectionData: Omit<Inspection, 'id'>): Promise<Inspection | null> {
+  const supabase = createClient();
+  const orgId = await getOrgId();
+  if (!orgId) return null;
+
+  const { data, error } = await supabase
+    .from('inspections')
+    .insert({
+      org_id: orgId,
+      farm_id: inspectionData.farmId || null,
+      date: inspectionData.date,
+      entries: inspectionData.entries,
+    })
+    .select()
+    .single();
+
+  if (error || !data) return null;
+  return {
+    id: data.id,
+    farmId: data.farm_id,
+    date: data.date,
+    entries: data.entries || [],
+  };
+}
+
+// --- Supabase Movements ---
+export async function sbGetMovements(): Promise<CowMovement[]> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from('cow_movements')
+    .select('id, cow_id, from_farm_id, to_farm_id, date')
+    .order('date', { ascending: false });
+
+  if (error || !data) return [];
+  return data.map((row: Record<string, unknown>) => ({
+    id: row.id as string,
+    cowId: row.cow_id as string,
+    fromFarmId: row.from_farm_id as string,
+    toFarmId: row.to_farm_id as string,
+    date: row.date as string,
+  }));
+}
+
+export async function sbAddMovement(movementData: Omit<CowMovement, 'id'>): Promise<CowMovement | null> {
+  const supabase = createClient();
+  const orgId = await getOrgId();
+  if (!orgId) return null;
+
+  const { data, error } = await supabase
+    .from('cow_movements')
+    .insert({
+      org_id: orgId,
+      cow_id: movementData.cowId,
+      from_farm_id: movementData.fromFarmId || null,
+      to_farm_id: movementData.toFarmId || null,
+      date: movementData.date,
+    })
+    .select()
+    .single();
+
+  if (error || !data) return null;
+  return {
+    id: data.id,
+    cowId: data.cow_id,
+    fromFarmId: data.from_farm_id,
+    toFarmId: data.to_farm_id,
+    date: data.date,
+  };
 }
 
 // --- Helpers ---
