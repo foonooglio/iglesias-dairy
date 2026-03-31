@@ -33,17 +33,6 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-      {/* Header */}
-      <header className="bg-green-700 text-white px-4 py-3 flex items-center justify-between shadow-md">
-        <div className="flex items-center gap-2">
-          <span className="text-2xl">🐄</span>
-          <div>
-            <span className="font-bold text-lg tracking-tight">Iglesias Dairy</span>
-            <span className="ml-2 text-xs bg-white text-green-700 font-bold px-2 py-0.5 rounded-full">DEMO #7</span>
-          </div>
-        </div>
-      </header>
-
       {/* Login Form */}
       <div className="flex-1 flex items-center justify-center px-4">
         <div className="w-full max-w-sm">
